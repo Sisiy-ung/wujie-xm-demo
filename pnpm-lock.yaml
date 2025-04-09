@@ -25,6 +25,9 @@ importers:
       wujie:
         specifier: ^1.0.28
         version: 1.0.28
+      wujie-vue3:
+        specifier: ^1.0.28
+        version: 1.0.28(vue@3.5.13(typescript@5.7.3))
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.3
@@ -1652,6 +1655,11 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
+  wujie-vue3@1.0.28:
+    resolution: {integrity: sha512-41TxePEmldOHFoU4cKmp4PtoiXuNa6fb+ozu4cohLyGkOkw9DQDGNv+P5GQofPo6H1MhZ4B8z0wXXcIzGvR+yw==}
+    peerDependencies:
+      vue: ^3.0.0
+
   wujie@1.0.28:
     resolution: {integrity: sha512-Numzm/yh50XV928sjWb8Qo1Fl3zXMhGqRPl1rZ7ZmRNC07dfaTXuFcIb17OrbYd3IokjLs17UAKgjCyKIJtfNw==}
 
@@ -3182,6 +3190,11 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
+
+  wujie-vue3@1.0.28(vue@3.5.13(typescript@5.7.3)):
+    dependencies:
+      vue: 3.5.13(typescript@5.7.3)
+      wujie: 1.0.28
 
   wujie@1.0.28:
     dependencies:
