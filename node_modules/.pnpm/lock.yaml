@@ -25,6 +25,9 @@ importers:
       wujie:
         specifier: ^1.0.28
         version: 1.0.28
+      wujie-vue-setup-ss:
+        specifier: ^1.0.0
+        version: 1.0.0
       wujie-vue3:
         specifier: ^1.0.28
         version: 1.0.28(vue@3.5.13(typescript@5.7.3))
@@ -1655,6 +1658,9 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
+  wujie-vue-setup-ss@1.0.0:
+    resolution: {integrity: sha512-tMTc2ZlaCS3AqRcVZB4p4d3/si/BebK6oI1Ckyyn+ByJdbCpb5bQWaz0WN7NqIgK9OYxIpPoJxhzRpNce82eLQ==}
+
   wujie-vue3@1.0.28:
     resolution: {integrity: sha512-41TxePEmldOHFoU4cKmp4PtoiXuNa6fb+ozu4cohLyGkOkw9DQDGNv+P5GQofPo6H1MhZ4B8z0wXXcIzGvR+yw==}
     peerDependencies:
@@ -3190,6 +3196,10 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
+
+  wujie-vue-setup-ss@1.0.0:
+    dependencies:
+      wujie: 1.0.28
 
   wujie-vue3@1.0.28(vue@3.5.13(typescript@5.7.3)):
     dependencies:
